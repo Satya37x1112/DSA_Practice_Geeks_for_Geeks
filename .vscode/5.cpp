@@ -25,6 +25,10 @@ int main() {
     cout << "Data as character: " << d.c << endl;
     cout << "Data as float: " << d.f << endl;
     cout << "Data as integer: " << d.i << endl;
+    enum week { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday };
+    week today;
+    today = Wednesday;
+    cout << "Day number of today: " << today << endl;
 
     return 0;
 }
