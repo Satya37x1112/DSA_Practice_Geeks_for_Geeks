@@ -6,7 +6,7 @@ class hello
     public: 
         void display()
         {   
-        cout<<"hello";
+           cout<<"hello";
         }
 };      
 
