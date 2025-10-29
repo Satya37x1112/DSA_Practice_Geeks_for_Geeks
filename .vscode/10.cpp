@@ -5,15 +5,27 @@ class hello
 {
 private:
     int a;
+    void check(int);
 
 public:
     void display(void);
 };
 void hello::display(void)
 {
-    cout<<"Enter the private number a: "<<endl;
+    cout<<"Enter the secret number a: "<<endl;
     cin>>a;
-    cout << "Hello, Satya!" << endl;
+    check(a);
+}
+void hello::check(int num)
+{
+    if (num==0)
+    {
+        cout << "Welcome agent" << endl;
+        cout << "Hello, Satya!" << endl;
+    }
+    else
+        cout << "Who the hell are you!!!" << endl;
+        exit(0);
 }
 
 int main()
