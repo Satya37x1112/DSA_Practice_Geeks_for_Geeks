@@ -19,7 +19,7 @@ void Employee::setData(void){
     count++;
 }
 void Employee::getData(void){
-    cout<<"The id of this employee is "<<id<<" and this is employee number "<<count<<endl;
+    cout<<"The id "<<id<<" and name "<<name<<" of this employee is and this is employee number "<<count<<endl;
 }
 void Employee::getCount(void){
     cout<<"The value of count is "<<count<<endl;
