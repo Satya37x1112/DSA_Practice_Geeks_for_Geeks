@@ -24,6 +24,7 @@ int main() {
     Employee satya;
     int n;
     cout<<"Enter the number of time you want to execute"<<endl;
+    cin>>n;
     for(int i=0;i<n;i++){
         satya.setData();
         satya.getData();
