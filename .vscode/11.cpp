@@ -5,11 +5,23 @@ class Employee{
     int id;
     static int count;
     string name;
+    int lucky;
 public:
     void setData(void);
     void getData(void);
     static void getCount(void);
+    void luckdraw(void);
 };
+void Employee::luckdraw(void){
+    cout<<"Enter a number for lucky draw"<<endl;
+    cin>>lucky;
+    if(lucky==7){
+        cout<<"You have won the lucky draw"<<endl;  
+    }
+    else{
+        cout<<"Better luck next time"<<endl;
+    }
+}
 int Employee::count=0;
 void Employee::setData(void){
     cout<<"Enter the id"<<endl;
@@ -20,6 +32,7 @@ void Employee::setData(void){
 }
 void Employee::getData(void){
     cout<<"The id "<<id<<" and name "<<name<<" of this employee is and this is employee number "<<count<<endl;
+    luckdraw();
 }
 void Employee::getCount(void){
     cout<<"The value of count is "<<count<<endl;
