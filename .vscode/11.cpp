@@ -21,6 +21,12 @@ void Employee::getCount(void){
     cout<<"The value of count is "<<count<<endl;
 }
 int main() {
-    
+    Employee satya;
+    int n;
+    cout<<"Enter the number of time you want to execute"<<endl;
+    for(int i=0;i<n;i++){
+        satya.setData();
+        satya.getData();
+    }
     return 0;
 }
