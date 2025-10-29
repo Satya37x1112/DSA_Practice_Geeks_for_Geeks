@@ -1,8 +1,10 @@
 #include <iostream>
+#include <string>
 using namespace std;
 class Employee{
     int id;
     static int count;
+    string name;
 public:
     void setData(void);
     void getData(void);
@@ -12,6 +14,8 @@ int Employee::count=0;
 void Employee::setData(void){
     cout<<"Enter the id"<<endl;
     cin>>id;
+    cout<<"Enter the name"<<endl;
+    cin>>name;
     count++;
 }
 void Employee::getData(void){
