@@ -16,7 +16,7 @@ public:
 };
 yo friendsum(yo f1,yo f2){
     yo f3;
-    f3.sum(f1.a,f2.b);
+    f3.sum((f1.a+f2.a),(f1.b+f2.b));
     return f3;
 }
 int main() {
