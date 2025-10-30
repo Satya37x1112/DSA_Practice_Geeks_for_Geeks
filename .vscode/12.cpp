@@ -22,7 +22,9 @@ yo friendsum(yo f1,yo f2){
 int main() {
     yo s1,s2,s3;
     s1.sum(3,4);
+    s1.display();
     s2.sum(5,6);
+    s2.display();
     s3=friendsum(s1,s2);
     s3.display();
     return 0;
