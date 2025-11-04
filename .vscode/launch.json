@@ -3,5 +3,13 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Fileexhist",
+            "request": "launch",
+            "mainClass": "Fileexhist",
+            "projectName": "DSA_Practice_Geeks_for_Geeks_1a784d8d"
+        }
+    ]
 }
