@@ -14,7 +14,7 @@ class right_angled_triangle{
             for(int j=0;j<=a-i;j++)
             {
 
-                System.out.print("*");
+                System.out.print("* ");
             }
             System.out.println();
         }
