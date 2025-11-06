@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "right_angled_triangle",
+            "request": "launch",
+            "mainClass": "right_angled_triangle",
+            "projectName": "DSA_Practice_Geeks_for_Geeks_1a784d8d"
+        },
+        {
+            "type": "java",
             "name": "Fileexhist",
             "request": "launch",
             "mainClass": "Fileexhist",
