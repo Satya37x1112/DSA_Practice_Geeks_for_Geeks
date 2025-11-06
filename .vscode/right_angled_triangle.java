@@ -5,9 +5,13 @@ class right_angled_triangle{
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the number of iterations: ");
         a=sc.nextInt();
-        for(int i=0;i<a;i++)
+        for(int i=a;i>0;i--)
         {
-            for(int j=0;j<=i;j++)
+            for(int space=i;space>0;space--)
+            {
+                    System.out.print(" ");
+            }
+            for(int j=0;j<=a-i;j++)
             {
 
                 System.out.print("*");
